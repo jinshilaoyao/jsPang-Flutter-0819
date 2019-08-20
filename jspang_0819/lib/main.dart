@@ -2,6 +2,13 @@ import 'package:flutter/material.dart';
 import 'BottomNaivgationWidget.dart';
 import 'bottom_appBar_demo.dart';
 import 'pages.dart';
+import 'frosted_glass_demo.dart';
+import 'KeepAliveDemo.dart';
+import 'MyHomePage.dart';
+import 'search_bar_demo.dart';
+import 'warp_demo.dart';
+import 'expansion_tile.dart';
+import 'expansion_panel_list.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -24,7 +31,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: BottomAppBarDemo(),
+      home: ExpansionPanelListDemo(),
     );
   }
 }
