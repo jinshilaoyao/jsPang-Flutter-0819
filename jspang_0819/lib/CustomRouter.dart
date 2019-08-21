@@ -46,7 +46,7 @@ class CustomRoute extends PageRouteBuilder{
             // );
             return SlideTransition(
   position: Tween<Offset>(
-    begin: Offset(-0.5, 0.0),
+    begin: Offset(-1.0, 0.0),
     end:Offset(0.0, 0.0)
   )
   .animate(CurvedAnimation(
