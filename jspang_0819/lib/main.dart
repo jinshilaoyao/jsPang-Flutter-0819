@@ -9,6 +9,7 @@ import 'search_bar_demo.dart';
 import 'warp_demo.dart';
 import 'expansion_tile.dart';
 import 'expansion_panel_list.dart';
+import 'flex_demo.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: ExpansionPanelListDemo(),
+      home: FlexDemo(),
     );
   }
 }
